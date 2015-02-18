@@ -1,0 +1,45 @@
+
+BODY { background-image: url("old_paper.jpg");
+	   front: Georgia, serif;
+	   color: #352719;
+	   font-size: large;
+	   margin: 10%;
+	   text-align:justify;}
+
+H1,H2,H3,H4,H5,H6 { text-align: center;
+					margin-left: 15%;
+					margin-right: 15%;
+					color: #E86C19;}
+					
+P { text-indent: 2em;}
+
+P::first-letter { font-size: 120%;
+				  color: #228B22}
+
+blockquote { font-size: 97%; 
+			 font-style: italic; 
+			 margin-left: 10%; 
+			 margin-right: 10%;}
+	
+img { color:green;
+     padding: 10px;
+     border: 10px solid #663300;
+     background-color: #CC5200;}
+	
+.figcenter   {margin: auto; 
+            text-align: center;}
+
+.caption {text-align: center; 
+          font-style:italic;
+		  color:green;}
+
+pre { font-style: italic;
+	  font-size: 90%; 
+	  margin-left: 10%;}
+	
+
+a:link { color: #228B22;}
+a:visited { color: #006400;}
+a:hover { color: #0000FF;}
+a:active { color: #FF0000;}
+
